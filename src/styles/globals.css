@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .bg-custom-gradient {
+        background: linear-gradient(134deg, #00185B 0%, #435C89 100%);
+    }
+}
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('../../public/fonts/AkiraExpanded-SuperBold.eot');
+    src: url('../../public/fonts/AkiraExpanded-SuperBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/AkiraExpanded-SuperBold.woff2') format('woff2'),
+    url('../../public/fonts/AkiraExpanded-SuperBold.woff') format('woff'),
+    url('../../public/fonts/AkiraExpanded-SuperBold.ttf') format('truetype'),
+    url('../../public/fonts/AkiraExpanded-SuperBold.svg#AkiraExpanded-SuperBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../../public/fonts/Agrandir-ThinItalic.eot');
+    src: url('../../public/fonts/Agrandir-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-ThinItalic.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-ThinItalic.woff') format('woff'),
+    url('../../public/fonts/Agrandir-ThinItalic.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-ThinItalic.svg#Agrandir-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('../../public/fonts/Agrandir-Narrow.eot');
+    src: url('../../public/fonts/Agrandir-Narrow.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-Narrow.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-Narrow.woff') format('woff'),
+    url('../../public/fonts/Agrandir-Narrow.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-Narrow.svg#Agrandir-Narrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../../public/fonts/Agrandir-Regular.eot');
+    src: url('../../public/fonts/Agrandir-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-Regular.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-Regular.woff') format('woff'),
+    url('../../public/fonts/Agrandir-Regular.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-Regular.svg#Agrandir-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('../../public/fonts/Agrandir-WideLight.eot');
+    src: url('../../public/fonts/Agrandir-WideLight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-WideLight.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-WideLight.woff') format('woff'),
+    url('../../public/fonts/Agrandir-WideLight.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-WideLight.svg#Agrandir-WideLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Grand';
+    src: url('../../public/fonts/Agrandir-GrandLight.eot');
+    src: url('../../public/fonts/Agrandir-GrandLight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-GrandLight.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-GrandLight.woff') format('woff'),
+    url('../../public/fonts/Agrandir-GrandLight.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-GrandLight.svg#Agrandir-GrandLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../../public/fonts/Agrandir-TextBold.eot');
+    src: url('../../public/fonts/Agrandir-TextBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-TextBold.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-TextBold.woff') format('woff'),
+    url('../../public/fonts/Agrandir-TextBold.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-TextBold.svg#Agrandir-TextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Grand';
+    src: url('../../public/fonts/Agrandir-GrandHeavy.eot');
+    src: url('../../public/fonts/Agrandir-GrandHeavy.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-GrandHeavy.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-GrandHeavy.woff') format('woff'),
+    url('../../public/fonts/Agrandir-GrandHeavy.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-GrandHeavy.svg#Agrandir-GrandHeavy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('../../public/fonts/Agrandir-WideBlackItalic.eot');
+    src: url('../../public/fonts/Agrandir-WideBlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-WideBlackItalic.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-WideBlackItalic.woff') format('woff'),
+    url('../../public/fonts/Agrandir-WideBlackItalic.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-WideBlackItalic.svg#Agrandir-WideBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Tight';
+    src: url('../../public/fonts/Agrandir-Tight.eot');
+    src: url('../../public/fonts/Agrandir-Tight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/Agrandir-Tight.woff2') format('woff2'),
+    url('../../public/fonts/Agrandir-Tight.woff') format('woff'),
+    url('../../public/fonts/Agrandir-Tight.ttf') format('truetype'),
+    url('../../public/fonts/Agrandir-Tight.svg#Agrandir-Tight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('../../public/fonts/MochiyPopOne-Regular.eot');
+    src: url('../../public/fonts/MochiyPopOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/MochiyPopOne-Regular.woff2') format('woff2'),
+    url('../../public/fonts/MochiyPopOne-Regular.woff') format('woff'),
+    url('../../public/fonts/MochiyPopOne-Regular.ttf') format('truetype'),
+    url('../../public/fonts/MochiyPopOne-Regular.svg#MochiyPopOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-Bold.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Bold.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-Bold.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-Bold.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Bold.svg#NotoSansArabicCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraLight.svg#NotoSansArabicCondensed-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-ExtraBold.svg#NotoSansArabicCondensed-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-Medium.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Medium.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-Medium.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-Medium.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Medium.svg#NotoSansArabicCondensed-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-Regular.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Regular.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-Regular.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-Regular.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Regular.svg#NotoSansArabicCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('../../public/fonts/NotoSansArabicCondensed-Light.eot');
+    src: url('../../public/fonts/NotoSansArabicCondensed-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Light.woff2') format('woff2'),
+    url('../../public/fonts/NotoSansArabicCondensed-Light.woff') format('woff'),
+    url('../../public/fonts/NotoSansArabicCondensed-Light.ttf') format('truetype'),
+    url('../../public/fonts/NotoSansArabicCondensed-Light.svg#NotoSansArabicCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    font-family: "Agrandir", "Mochiy Pop One", "Noto Sans Arabic", serif;
+}

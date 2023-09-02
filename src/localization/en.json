@@ -1,0 +1,11 @@
+{
+  "greet": "Hello",
+  "name": "Omar Abdulrazzaq",
+  "role": "Front-end Developer",
+  "short_bio": "A passionate coder who loves to create visually compelling and user-friendly websites.",
+  "long_bio": "As a dedicated front-end developer, I have a knack for building clean, efficient, and visually appealing user interfaces. With a strong background in JavaScript, React, and modern web technologies, I strive to deliver seamless experiences that engage and delight users. My commitment to excellence is not just limited to coding; I enjoy being involved in the entire project lifecycle, from conceptualization to deployment, ensuring that every product I work on meets the highest quality standards.",
+  "tech_stack": "My go-to tech stack includes React, Next.js, and Tailwind CSS, among others.",
+  "interests": "When I'm not deep into coding, I like to explore different facets of pop culture. I'm a big fan of the Akira movie and its groundbreaking visual storytelling. Role-playing games (RPGs) are another passion of mine, offering immersive worlds that fuel my creativity. Anime, with its diverse genres and artistic styles, is my go-to choice for entertainment and artistic inspiration.",
+  "future_goals": "Looking ahead, I aim to further specialize in emerging front-end technologies and aspire to work on projects that make a meaningful impact. I'm particularly interested in contributing to open-source projects that focus on web accessibility and inclusivity."
+
+}

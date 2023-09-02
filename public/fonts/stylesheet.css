@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url('AkiraExpanded-SuperBold.eot');
+    src: url('AkiraExpanded-SuperBold.eot?#iefix') format('embedded-opentype'),
+    url('AkiraExpanded-SuperBold.woff2') format('woff2'),
+    url('AkiraExpanded-SuperBold.woff') format('woff'),
+    url('AkiraExpanded-SuperBold.ttf') format('truetype'),
+    url('AkiraExpanded-SuperBold.svg#AkiraExpanded-SuperBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-ThinItalic.eot');
+    src: url('Agrandir-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-ThinItalic.woff2') format('woff2'),
+    url('Agrandir-ThinItalic.woff') format('woff'),
+    url('Agrandir-ThinItalic.ttf') format('truetype'),
+    url('Agrandir-ThinItalic.svg#Agrandir-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-Narrow.eot');
+    src: url('Agrandir-Narrow.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-Narrow.woff2') format('woff2'),
+    url('Agrandir-Narrow.woff') format('woff'),
+    url('Agrandir-Narrow.ttf') format('truetype'),
+    url('Agrandir-Narrow.svg#Agrandir-Narrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-Regular.eot');
+    src: url('Agrandir-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-Regular.woff2') format('woff2'),
+    url('Agrandir-Regular.woff') format('woff'),
+    url('Agrandir-Regular.ttf') format('truetype'),
+    url('Agrandir-Regular.svg#Agrandir-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideLight.eot');
+    src: url('Agrandir-WideLight.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-WideLight.woff2') format('woff2'),
+    url('Agrandir-WideLight.woff') format('woff'),
+    url('Agrandir-WideLight.ttf') format('truetype'),
+    url('Agrandir-WideLight.svg#Agrandir-WideLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Grand';
+    src: url('Agrandir-GrandLight.eot');
+    src: url('Agrandir-GrandLight.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-GrandLight.woff2') format('woff2'),
+    url('Agrandir-GrandLight.woff') format('woff'),
+    url('Agrandir-GrandLight.ttf') format('truetype'),
+    url('Agrandir-GrandLight.svg#Agrandir-GrandLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-TextBold.eot');
+    src: url('Agrandir-TextBold.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-TextBold.woff2') format('woff2'),
+    url('Agrandir-TextBold.woff') format('woff'),
+    url('Agrandir-TextBold.ttf') format('truetype'),
+    url('Agrandir-TextBold.svg#Agrandir-TextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Grand';
+    src: url('Agrandir-GrandHeavy.eot');
+    src: url('Agrandir-GrandHeavy.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-GrandHeavy.woff2') format('woff2'),
+    url('Agrandir-GrandHeavy.woff') format('woff'),
+    url('Agrandir-GrandHeavy.ttf') format('truetype'),
+    url('Agrandir-GrandHeavy.svg#Agrandir-GrandHeavy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideBlackItalic.eot');
+    src: url('Agrandir-WideBlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-WideBlackItalic.woff2') format('woff2'),
+    url('Agrandir-WideBlackItalic.woff') format('woff'),
+    url('Agrandir-WideBlackItalic.ttf') format('truetype'),
+    url('Agrandir-WideBlackItalic.svg#Agrandir-WideBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agrandir Tight';
+    src: url('Agrandir-Tight.eot');
+    src: url('Agrandir-Tight.eot?#iefix') format('embedded-opentype'),
+    url('Agrandir-Tight.woff2') format('woff2'),
+    url('Agrandir-Tight.woff') format('woff'),
+    url('Agrandir-Tight.ttf') format('truetype'),
+    url('Agrandir-Tight.svg#Agrandir-Tight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mochiy Pop One';
+    src: url('MochiyPopOne-Regular.eot');
+    src: url('MochiyPopOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MochiyPopOne-Regular.woff2') format('woff2'),
+    url('MochiyPopOne-Regular.woff') format('woff'),
+    url('MochiyPopOne-Regular.ttf') format('truetype'),
+    url('MochiyPopOne-Regular.svg#MochiyPopOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-Bold.eot');
+    src: url('NotoSansArabicCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-Bold.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-Bold.woff') format('woff'),
+    url('NotoSansArabicCondensed-Bold.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-Bold.svg#NotoSansArabicCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-ExtraLight.eot');
+    src: url('NotoSansArabicCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-ExtraLight.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-ExtraLight.woff') format('woff'),
+    url('NotoSansArabicCondensed-ExtraLight.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-ExtraLight.svg#NotoSansArabicCondensed-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-ExtraBold.eot');
+    src: url('NotoSansArabicCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-ExtraBold.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-ExtraBold.woff') format('woff'),
+    url('NotoSansArabicCondensed-ExtraBold.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-ExtraBold.svg#NotoSansArabicCondensed-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-Medium.eot');
+    src: url('NotoSansArabicCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-Medium.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-Medium.woff') format('woff'),
+    url('NotoSansArabicCondensed-Medium.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-Medium.svg#NotoSansArabicCondensed-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-Regular.eot');
+    src: url('NotoSansArabicCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-Regular.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-Regular.woff') format('woff'),
+    url('NotoSansArabicCondensed-Regular.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-Regular.svg#NotoSansArabicCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Arabic Condensed';
+    src: url('NotoSansArabicCondensed-Light.eot');
+    src: url('NotoSansArabicCondensed-Light.eot?#iefix') format('embedded-opentype'),
+    url('NotoSansArabicCondensed-Light.woff2') format('woff2'),
+    url('NotoSansArabicCondensed-Light.woff') format('woff'),
+    url('NotoSansArabicCondensed-Light.ttf') format('truetype'),
+    url('NotoSansArabicCondensed-Light.svg#NotoSansArabicCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
